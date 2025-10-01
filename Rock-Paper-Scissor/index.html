@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+    <link rel="stylesheet" href="assets/CSS/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <button class="changeMode">change mode to dark</button>
+        <h1 class="heading">Rock Paper Scissors Game</h1>   
+        <button class="resetBTN">Reset Game</button>
+    </header>
+
+    <div class="main">
+        <div class="choiceBox">
+            <div class="choices">
+                <div class="choice_1">
+                    <div class="choice" id="rock">
+                        <i class="fa-thin fa-hand-back-fist"></i>
+                    </div>
+                </div>
+                <div class="choice_2">
+                    <div class="choice" id="paper">
+                        <i class="fa-thin fa-hand"></i>
+                    </div>
+                </div>
+                <div class="choice_3">
+                    <div class="choice" id="scissor">
+                        <i class="fa-thin fa-hand-peace"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scoreBoard">
+            <div class="score score_1">
+                <p id="userScore">0</p>
+                <p class="userText">User</p>
+            </div>
+            <div class="score score_2">
+                <p id="compScore">0</p>
+                <p class="compText">Comp</p>
+            </div>
+        </div>
+
+        <div class="msgContainer">
+            <p class="msg" id="msg">play your move</p>
+        </div>
+    </div>
+
+
+    <script src="assets/JS/app.js"></script>
+</body>
+</html>

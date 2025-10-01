@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inder&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Assets/Css/style.css">
+    <link rel="stylesheet" href="Assets/Tailwind/src/output.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="flex flex-row justify-around mt-4 mr-20 pb-4 pt-1 align-middle">
+        <img src="Assets/Images/Logo.png" class="logo flex h-auto place-items-center align-middle" alt="LOGO">
+        <div class="nav-links flex flex-row text-2xl gap-5 align-middle place-items-center">
+            <p class="nav-1 underline text-red-800"><a href="">Home</a></p>
+            <p class="nav-2 transition-all duration-200 hover:font-bold hover:text-red-800"><a href="">Shop</a></p>
+            <p class="nav-3 transition-all duration-200 hover:font-bold hover:text-red-800"><a href="">About</a></p>
+            <p class="nav-4 transition-all duration-200 hover:font-bold hover:text-red-800"><a href="">Contact</a></p>
+
+        </div>
+        <div class="nav-icons flex flex-row place-items-center gap-8 text-2xl">
+            <i class="fa-regular fa-magnifying-glass fa-flip-horizontal"></i>
+            <i class="fa-regular fa-bag-shopping"></i>
+            <i class="fa-regular fa-user"></i>
+            <div class="menu-icon hidden">
+                <i class="fa-regular fa-bars"></i>
+            </div>
+        </div> 
+    </nav>
+
+    <div class="hero h-150 w-auto mb-170">
+        <img src="Assets/Images/living-room.jpg" class="h-300 w-full" alt="">
+        <div class="bg-white mt-80 mr-20 p-8 flex flex-col absolute top-0 right-0 rounded w-150 h-auto">
+            <h1 class="text-red-800 text-5xl font-lato mb-5 font-medium">Discover Our <br>New Collection</h1>
+            <p class="text-red-800 text-xl mb-5">Our collection includes everything from cozy sofas and stylish coffee
+                tables to elegant dining sets and luxurious bedroom furnishings. </p>
+            <button class="w-fit bg-red-800 text-white p-3 pl-5 pr-5 text-3xl rounded">Buy Now</button>
+        </div>
+    </div>
+
+    <div class="range flex flex-col items-center">
+        <p class="Browse text-3xl text-red-800 font-medium">Browse The Range</p>
+        <p class="Discover text-xl">Discover your perfect piece today - Browse the Range!</p>
+
+        <div class="flex flex-row mt-10">
+            <div class="card mr-10 mt-5 flex flex-col items-center text-xl">
+                <img src="Assets/Images/living.png" class="rounded" alt="">
+                <p class="mt-4 font-lato font-medium">Living</p>
+            </div>
+
+            <div class="card mr-10 flex flex-col items-center text-xl">
+                <img src="Assets/Images/wooden.png" class="rounded" alt="">
+                <p class="mt-4 font-lato font-medium">Wooden</p>
+            </div>
+
+            <div class="card mt-5 flex flex-col items-center text-xl">
+                <img src="Assets/Images/bedroom.png" class="rounded" alt="">
+                <p class="mt-4 font-lato font-medium">Bedroom</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="BestSellings flex flex-col gap-10 items-center">
+        <p class="text-red-800 font-medium text-2xl mt-8">Best Sellings</p>
+        <div class="flex flex-col gap-14 h-fit">                              
+            <div class="sellingsec-1 flex flex-row gap-12 sec-1">
+                <div class="flex flex-row gap-12">
+                    <div class="card-1 bg-teal-200 w-fit rounded-xl pb-3">
+                        <div class="w-full flex flex-col">
+                            <div class="flex justify-end">
+                                <div
+                                    class="discount bg-red-800 text-white p-1 w-fit pl-3 pr-3 rounded-l-4xl rounded-tr-xl absolute">
+                                    20%
+                                </div>
+                            </div>
+                            <img src="Assets/Images/bedroom-1.png" class="size-70 rounded-tl-xl rounded-tr-xl" alt="" />
+                        </div>
+
+                        <div class="Details mt-3 ml-3">
+                            <p class="title text-2xl text-red-800 font-medium">Double Bed</p>
+                            <p class="feet mb-2">6 feet</p>
+                            <p class="price">Rs 7600000/-</p>
+                        </div>
+                    </div>
+                    <div class="card-2 bg-teal-200 w-fit rounded-xl pb-3">
+                        <div class="w-fit flex flex-col">
+                            <div class="flex justify-end">
+                                <div
+                                    class="discount bg-red-800 text-white p-1 w-fit pl-3 pr-3 rounded-l-4xl rounded-tr-xl absolute">
+                                    20%
+                                </div>
+                            </div>
+                            <img src="Assets/Images/bedroom-2.png" class="size-70 rounded-tl-xl rounded-tr-xl" alt="" />
+                        </div>
+
+                        <div class="Details mt-3 ml-3">
+                            <p class="title text-2xl text-red-800 font-medium">Double Bed</p>
+                            <p class="feet mb-2">6 feet</p>
+                            <p class="price">Rs 7600000/-</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-row gap-12">
+                    <div class="card-3 bg-teal-200 w-fit rounded-xl pb-3">
+                        <div class="w-fit flex flex-col">
+                            <div class="flex justify-end">
+                                <div
+                                    class="discount bg-red-800 text-white p-1 w-fit pl-3 pr-3 rounded-l-4xl rounded-tr-xl absolute">
+                                    20%
+                                </div>
+                            </div>
+                            <img src="Assets/Images/bedroom-3.png" class="size-70 rounded-tl-xl rounded-tr-xl" alt="" />
+                        </div>
+
+                        <div class="Details mt-3 ml-3">
+                            <p class="title text-2xl text-red-800 font-medium">Double Bed</p>
+                            <p class="feet mb-2">6 feet</p>
+                            <p class="price">Rs 7600000/-</p>
+                        </div>
+                    </div>
+                    <div class="card-4 bg-teal-200 w-fit rounded-xl pb-3">
+                        <div class="w-fit flex flex-col">
+                            <div class="flex justify-end">
+                                <div
+                                    class="discount bg-red-800 text-white p-1 w-fit pl-3 pr-3 rounded-l-4xl rounded-tr-xl absolute">
+                                    20%
+                                </div>
+                            </div>
+                            <img src="Assets/Images/bedroom-4.png" class="size-70 rounded-tl-xl rounded-tr-xl" alt="" />
+                        </div>
+
+                        <div class="Details mt-3 ml-3">
+                            <p class="title text-2xl text-red-800 font-medium">Double Bed</p>
+                            <p class="feet mb-2">6 feet</p>
+                            <p class="price">Rs 7600000/-</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sellingsec-2 flex flex-row gap-12 sec-2">
+                <div class="flex flex-row gap-12">
+                    <div class="card-5 bg-teal-100 w-fit rounded-xl pb-3">
+                        <div class="w-fit flex flex-col">
+                            <div class="flex justify-end">
+                                <div
+                                    class="discount bg-red-800 text-white p-1 w-fit pl-3 pr-3 rounded-l-4xl rounded-tr-xl absolute">
+                                    20%
+                                </div>
+                            </div>
+                            <img src="Assets/Images/bedroom-5.png" class="size-70 rounded-tl-xl rounded-tr-xl" alt="" />
+                        </div>
+
+                        <div class="Details mt-3 ml-3">
+                            <p class="title text-2xl text-red-800 font-medium">Double Bed</p>
+                            <p class="feet mb-2">6 feet</p>
+                            <p class="price">Rs 7600000/-</p>
+                        </div>
+                    </div>
+                    <div class="card-6 bg-teal-200 w-fit rounded-xl pb-3">
+                        <div class="w-fit flex flex-col">
+                            <div class="flex justify-end">
+                                <div
+                                    class="discount bg-red-800 text-white p-1 w-fit pl-3 pr-3 rounded-l-4xl rounded-tr-xl absolute">
+                                    20%
+                                </div>
+                            </div>
+                            <img src="Assets/Images/bedroom-6.png" class="size-70 rounded-tl-xl rounded-tr-xl" alt="" />
+                        </div>
+
+                        <div class="Details mt-3 ml-3">
+                            <p class="title text-2xl text-red-800 font-medium">Double Bed</p>
+                            <p class="feet mb-2">6 feet</p>
+                            <p class="price">Rs 7600000/-</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-row gap-12">
+                    <div class="card-7 bg-teal-200 w-fit rounded-xl pb-3">
+                        <div class="w-fit flex flex-col">
+                            <div class="flex justify-end">
+                                <div
+                                    class="discount bg-red-800 text-white p-1 w-fit pl-3 pr-3 rounded-l-4xl rounded-tr-xl absolute">
+                                    20%
+                                </div>
+                            </div>
+                            <img src="Assets/Images/bedroom-7.png" class="size-70 rounded-tl-xl rounded-tr-xl" alt="" />
+                        </div>
+
+                        <div class="Details mt-3 ml-3">
+                            <p class="title text-2xl text-red-800 font-medium">Double Bed</p>
+                            <p class="feet mb-2">6 feet</p>
+                            <p class="price">Rs 7600000/-</p>
+                        </div>
+                    </div>
+                    <div class="card-8 bg-teal-200 w-fit rounded-xl pb-3">
+                        <div class="w-fit flex flex-col">
+                            <div class="flex justify-end">
+                                <div
+                                    class="discount bg-red-800 text-white p-1 w-fit pl-3 pr-3 rounded-l-4xl rounded-tr-xl absolute">
+                                    20%
+                                </div>
+                            </div>
+                            <img src="Assets/Images/bedroom-8.png" class="size-70 rounded-tl-xl rounded-tr-xl" alt="" />
+                        </div>
+
+                        <div class="Details mt-3 ml-3">
+                            <p class="title text-2xl text-red-800 font-medium">Double Bed</p>
+                            <p class="feet mb-2">6 feet</p>
+                            <p class="price">Rs 7600000/-</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <button class="text-xl bg-red-800 text-white p-3 mt-5">
+            Buy Now
+        </button>
+    </div>
+
+
+    <div class="Inspiration p-10 flex flex-col items-center">
+        <p class="text-red-800 text-3xl font-medium mb-8">Inspiration</p>
+        <div class="flex flex-row ">
+            <div class="w-auto">
+                <img src="Assets/Images/inspiration-1.png" class="inspiration-1 mr-3" alt="">
+            </div>
+            <div class="w-auto">
+                <img src="Assets/Images/inspiration-2.png" class="inspiration-2 mr-3" alt="">
+            </div>
+            <div class="w-auto">
+                <img src="Assets/Images/inspiration-3.png" class="inspiration-3" alt="">
+            </div>
+        </div>
+
+        <div class="flex flex-col">
+            <div class="w-auto">
+                <img src="Assets/Images/inspiration-4.png" class="mt-[-530px] inspiration-4 w-207" alt="">
+            </div>
+            <div class="flex flex-row mt-5">
+                <div class="w-auto">
+                    <img src="Assets/Images/inspiration-5.png" class="mr-[7px] inspiration-5" alt="">
+                </div>
+                <div class="w-auto">
+                    <img src="Assets/Images/inspiration-6.png" class="mr-[12px] inspiration-6" alt="">
+                </div>
+                <div>
+                    <div class="w-auto">
+                        <img src="Assets/Images/inspiration-7.png" class="inspiration-7" alt="">
+                    </div>
+                    <div class="w-auto">
+                        <img src="Assets/Images/inspiration-8.png" class="ml-[-4px] mt-1 inspiration-8" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-row">
+                <div class="w-auto">
+                    <img src="Assets/Images/inspiration-9.png" class="mt-[-270px] inspiration-9" alt="">
+                </div>
+                <div>
+                    <img src="Assets/Images/inspiration-10.png" class="ml-2 mt-[18px] inspiration-10" alt="">
+                </div>
+            </div>
+        </div>
+
+        <button
+            class="learn-more border-[2px] border-red-800 text-red-800 text-2xl p-3 mt-4 transition-all">
+            Learn More
+        </button>
+    </div>
+
+    <div class="footer flex flex-row justify-evenly bg-teal-200 pt-15 pb-15">
+        <div class="section-1">
+            <img src="Assets/Images/Logo.png" class="mb-5" alt="logo">
+            <div class="flex flex-row gap-2">
+                <img src="Assets/Images/facebook-logo.svg" alt="">
+                <img src="Assets/Images/insta-logo.svg" alt="">
+                <img src="Assets/Images/twitter-logo.svg" alt="">
+                <img src="Assets/Images/dribbble-logo.svg" alt="">
+            </div>
+        </div>
+        <div class="section-2 flex flex-row gap-12 text-[18px]">
+            <div class="row-1 flex flex-col">
+                <a href="">Home</a>
+                <a href="">Shop</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+            </div>
+            <div class="row-2 flex flex-col">
+                <a href="">Decor</a>
+                <a href="">Furniture</a>
+                <a href="">Rent</a>
+                <a href="">Sale</a>
+            </div>
+            <div class="row-3 flex flex-col">
+                <a href="">Bedroom</a>
+                <a href="">Kitchen</a>
+                <a href="">living</a>
+                <a href="">Chairs</a>
+            </div>
+        </div>
+        <div class="section-3">
+            <p class="text-[18px]">Subscribe our Newsletter</p>
+            <div>
+                <input type="text" placeholder="Email"
+                    class="bg-white pr-3 pl-3 h-8 mt-3 rounded-full w-60 font-medium ">
+                <button class="bg-red-800 h-8 pr-3 pl-3 text-white rounded-full ml-[-40px]">Subscribe</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
