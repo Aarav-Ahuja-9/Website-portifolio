@@ -2005,3 +2005,13 @@ body {
 [data-overlay-light="10"]:before {
     opacity: 1;
 }
+
+@media (max-width: 900px) {
+    .cursor-inner, .cursor-outer {
+        display: none;
+    }
+
+    body {
+        cursor: auto;
+    }
+}
